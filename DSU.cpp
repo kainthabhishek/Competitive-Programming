@@ -1,4 +1,6 @@
 //---------------------------------------------------
+// Disjoint Set Union
+
 #define MAXN 1005
 
 int parent[MAXN],rank[MAXN];
@@ -7,6 +9,7 @@ void create_set(int n){
 	
 	memset(rank,0,sizeof(int)*(n+1));	
 	for(int i=1; i <= n; i++)
+		// initially all nodes are disjoint (hence no parent)
 		parent[i] = i;
 }
 int find_parent(int x){
