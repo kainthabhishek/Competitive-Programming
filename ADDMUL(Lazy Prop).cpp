@@ -1,3 +1,6 @@
+/* Problem : https://www.codechef.com/JULY15/problems/ADDMUL 
+   Author : Abhishek Kainth */
+
 #include<bits/stdc++.h>
 #define M 1000000007
 using namespace std;
